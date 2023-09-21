@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div id="page-1">
+        <div class="title-fir">
+            <h1 class="h1-fir">PUNTO DE EQUILIBRIO</h1>
+        </div>
+    
+        <div class="options">
+            
+            <form>
+                <input type="radio" id="equi" class="equi" name="color">
+                <label for="equi">Punto de Equilibrio</label>
+                
+                <input type="radio" id="uti" class="uti" name="color">
+                <label for="uti">Calcular Utilidad</label>
+            </form>
+        </div>
+    
+       <div class="content">
+            <div class="sec" id="sec">
+                <p class="p" id="parf">Costo Fijo</p>
+                <input type="text" id="cf" class="input">
+                <br>
+    
+                <p class="p" id="parf">Precio Venta</p>
+                <input type="text" id="pv" class="input">
+                <br>
+    
+                <p class="p" id="parf">Costo Variable Unidad</p>
+                <input type="text" id="cv" class="input">
+                <br>
+    
+                <section id="po">
+                    <p class="p">Unidades Vendidas</p>
+                    <input type="text" id="cantidad" class="input">
+                    <br>
+                </section>
+    
+                <div class="botones" id="boton">
+                    
+                    <button id="btn" class="btn" type="button">Grafica</button>
+    
+                    <button id="limpiar" class="btn">Limpiar</button>
+                </div>
+            </div>
+    
+            <div class="image">
+                <img src="./img/p4.webp" alt="" class="img">
+            </div>
+       </div>
+    </div>
+
+   <div id="page-2">
+        <div class="title-main">
+            <h1 class="h1-sec">RESULTADOS DE CALCULOS</h1>
+            </div>
+        
+            <div class="content-2">
+        
+                <div class="calculos" id="calculos">
+                    <div class="introducidos">
+        
+                        <h4>Valores Ingresados</h4>
+        
+                        <p class="val">Costo Fijo: <span id="costoFijo"> </span></p>
+        
+                        <br>
+        
+                        <p class="val">Precio de Venta: <span id="precioVenta"> </span</p>
+        
+                        <br>
+        
+                        <p class="val">Costo Variable: <span id="costoVariable"> </span</p>
+        
+                        <br>
+
+                        <div class="im">
+                            <img src="./img/p3.webp" alt="" class="image">
+                        </div>
+        
+                    </div>
+        
+                    <div class="resultados" id="resultados">
+        
+                        <h4>Calculos Resueltos</h4>
+        
+                        <p class="val">Cantidad de Equilibrio: <span id="cantiEqui"> </span</p>
+        
+                        <br>
+        
+                        <p class="val">Ingreso Total: <span id="interesTotal"> </span</p>
+        
+                        <br>
+        
+                        <p class="val">Costo Total: <span id="costoTotal"> </span</p>
+        
+                        <br>
+        
+                        <p class="val">Utilidad: <span id="utilidad"> </span</p>
+                            
+                        <br>
+                        <br>
+
+                        <section id="caluti" class="caluti">
+                            <h4>Calculos de Utilidad</h4>
+        
+                            <p class="val">Ingreso Total: <span id="interesT"> </span</p>
+            
+                            <br>
+            
+                            <p class="val">Costo Total: <span id="costoT"> </span</p>
+            
+                            <br>
+            
+                            <p class="val">Utilidad: <span id="utilid"> </span</p>
+            
+                            <br>
+
+                            <p class="val">Genera<span id="texto"> de: </span> <span id="utilid"> </span</p>
+                            <br>    
+                            <br>
+                        </section>
+                    </div>
+        
+                </div>
+        
+                <div class="box" id="box">
+                    <canvas id="myChart"></canvas>
+                </div>
+        
+            </div>
+
+        <br>
+
+        <button id="regreso" class="btn regreso" type="button">Regresar</button>
+   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/draw.js"></script>
+</body>
+</html>

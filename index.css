@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* title */
+.title-fir{
+    background-color: #000;
+    text-align: center;
+}
+
+
+.h1-fir{
+    color: #fff;
+    padding-top: 5px;
+}
+
+.equi{
+    margin-left: 80px;
+}
+
+.uti{
+    margin-left: 50px;
+}
+
+.p{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.input{
+    width: 240px;
+    height: 25px;
+    border: #000 solid 1px;
+    padding-left: 5px;
+}
+
+/* display de options */
+.options{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* contenido */
+.content{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 378px;
+}
+
+.sec{
+    border: #000 solid 1px;
+    border-radius: 10px;
+    width: 450px;
+    height: 520px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.img{
+    width: 400px;
+    height: 430px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.botones{
+    display: flex;
+    margin-left: 67px;
+}
+
+.btn{
+    width: 85px;
+    height: 30px;
+    margin-top: 35px;
+    background-color: green;
+    color: #fff;
+    border: #000 solid 1px;
+    border-radius: 4px;
+    margin-left: 45px;
+}
+
+
+.box{
+    width: 300px;
+    margin-left: 7px;
+}
+
+.title-main{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content-2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.calculos{
+    display: flex;
+}
+
+.introducidos{
+    border: #000 solid 2px;
+    border-radius: 6px;
+    width: 250px;
+    margin-left: 10px;
+    padding-left: 20px;
+    background-color: turquoise;
+}
+
+.resultados{
+    border: #000 solid 2px;
+    border-radius: 6px;
+    width: 250px;
+    margin-left: 20px;
+    padding-left: 20px;
+    background-color: turquoise;
+}
+
+.inter{
+    border: #000 solid 2px;
+    margin-top: 30px;
+}
+
+.title{
+    border: #000 solid 2px;
+    width: 245px;
+    margin-top: 20px;
+    margin-left: 440px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.h1-sec{
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.parrafo{
+    border: #000 solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 900px;
+    margin-left: 140px;
+}
+
+h4{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.val{
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.caluti{
+    margin-top: 30px;
+}
+
+.regreso{
+    margin-left: 570px;
+}
+
+.im{
+    margin-top: 60px;
+    margin-left: 1px;
+}
+
+.image{
+    width: 226px;
+    height: 172px;
+}
